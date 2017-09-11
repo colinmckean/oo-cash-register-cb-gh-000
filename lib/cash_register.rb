@@ -10,7 +10,7 @@ class CashRegister
 
   def apply_discount
     if @discount != nil
-      self.total - 200
+      self.total -= 200
     end
   end
 end
