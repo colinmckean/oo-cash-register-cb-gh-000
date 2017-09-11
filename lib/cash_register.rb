@@ -1,4 +1,6 @@
 class CashRegister
-  def initialize(number)
+  attr_accessor :cash
+  def initialize(cash)
+    @cash = cash
   end
 end
